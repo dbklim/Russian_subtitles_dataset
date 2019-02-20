@@ -1,0 +1,5 @@
+JamSpell/
+data/subtitles_ru
+*.spell
+*.pkl
+.vscode
