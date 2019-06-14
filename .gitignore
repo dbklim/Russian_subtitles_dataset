@@ -1,6 +1,7 @@
 JamSpell/
 data/subtitles_ru
-data/*.txt
+data/subtitles_ru.txt
+data/*.bin
 *.spell
 *.pkl
 .vscode

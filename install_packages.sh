@@ -4,8 +4,7 @@ apt-get -y update
 apt-get -y dist-upgrade
 
 # Установка пакетов Ubuntu
-PACKAGES="swig cmake python3 python3-pip git"
-apt-get -y install $PACKAGES
+apt-get -y install swig cmake python3 python3-pip git
 
 # Установка пакетов Python3
 yes | pip3 install --upgrade pip
