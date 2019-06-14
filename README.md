@@ -1,12 +1,12 @@
 # Russian subtitles dataset
 
-Проект содержит уже обработанный и готовый к использованию [набор данных](https://github.com/Desklop/Russian_subtitles_dataset/blob/master/data/subtitles_ru.txt) из русских субтитров к 347 различным сериалам. Так же имеется небольшой скрипт на Python для обработки исходного набора данных, взятого из корпуса [Taiga](https://tatianashavrina.github.io/taiga_site/downloads).
+Проект содержит уже обработанный и готовый к использованию [набор данных](https://github.com/Desklop/Russian_subtitles_dataset/blob/master/data/subtitles_ru.txt.zip) (запакован в .zip для уменьшения размера) из русских субтитров к 347 различным сериалам. Так же имеется небольшой скрипт на Python для обработки исходного набора данных, взятого из корпуса [Taiga](https://tatianashavrina.github.io/taiga_site/downloads).
 
 # О наборе данных
 
 За основу был взят корпус [Taiga](https://tatianashavrina.github.io/taiga_site/downloads), а точнее - корпус из всех субтитров. Он представляет собой архив, содержащий субтитры к 347 сериалам на различных языках (русский, английский, испанский и т.д.). Они находятся в архиве под кнопкой "All subtitles" из раздела "Our special collections for" по пути `/home/tsha/Subtitles/texts`.
 
-Из этих субтитров были оставлены субтитры только на русском языке (с некоторыми изменениями скрипта для обработки исходного набора данных можно получить субтитры на других доступных языках), которые затем были обработаны и собраны в один файл - [`subtitles_ru.txt`](https://github.com/Desklop/Russian_subtitles_dataset/blob/master/data/subtitles_ru.txt).
+Из этих субтитров были оставлены субтитры только на русском языке (с некоторыми изменениями скрипта для обработки исходного набора данных можно получить субтитры на других доступных языках), которые затем были обработаны и собраны в один файл - [`subtitles_ru.txt`](https://github.com/Desklop/Russian_subtitles_dataset/blob/master/data/subtitles_ru.txt.zip) (запакован в .zip для уменьшения размера).
 
 Этот набор субтитров можно использовать для:
  - построения модели [word2vec](https://radimrehurek.com/gensim/models/word2vec.html) (предусмотрено в скрипте для обработки исходного набора данных)

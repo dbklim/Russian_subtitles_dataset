@@ -330,7 +330,7 @@ class Preparation:
                 print('[i] Разбиение предложений из субтитров на отдельные слова... %i из %i' % (i, len(subtitles)))
             words = re.split(r'(\W)', subtitles[i]) # разбиение строки на последовательность из слов и знаков препинания
             words = [ word for word in words if word.strip() ] # удаление пустых элементов из последовательности
-            if len(words) < 135:
+            if len(words) < 30:
                 subtitles_words.append(words)
             i += 1
 
