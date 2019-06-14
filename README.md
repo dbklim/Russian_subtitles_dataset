@@ -2,6 +2,8 @@
 
 Проект содержит уже обработанный и готовый к использованию [набор данных](https://github.com/Desklop/Russian_subtitles_dataset/blob/master/data/subtitles_ru.txt.zip) (запакован в .zip для уменьшения размера) из русских субтитров к 347 различным сериалам и обученную на этом наборе данных языковую [модель](https://github.com/Desklop/Russian_subtitles_dataset/blob/master/data/jamspell_ru_model_subtitles.bin.zip) (запакована в .zip для уменьшения размера) для корректировщика опечаток [JamSpell](https://github.com/bakwc/JamSpell). Так же имеется небольшой скрипт на Python для обработки исходного набора данных, взятого из корпуса [Taiga](https://tatianashavrina.github.io/taiga_site/downloads).
 
+**Внимание!** Перед использованием, не забудьте распаковать из .zip [набор данных](https://github.com/Desklop/Russian_subtitles_dataset/blob/master/data/subtitles_ru.txt.zip) и языковую [модель](https://github.com/Desklop/Russian_subtitles_dataset/blob/master/data/jamspell_ru_model_subtitles.bin.zip) :)
+
 # О наборе данных
 
 За основу был взят корпус [Taiga](https://tatianashavrina.github.io/taiga_site/downloads), а точнее - корпус из всех субтитров. Он представляет собой архив, содержащий субтитры к 347 сериалам на различных языках (русский, английский, испанский и т.д.). Они находятся в архиве под кнопкой "All subtitles" из раздела "Our special collections for" по пути `/home/tsha/Subtitles/texts`.
